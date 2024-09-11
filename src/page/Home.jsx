@@ -17,7 +17,7 @@ const Home = () => {
       setMessages([...messages, { text: input, sender: 'user' }]);
       setIsThinking(true);
       try {
-        const response = await fetch('https://websitechatbotbackend.onrender.com', {
+        const response = await fetch('https://websitechatbotbackend-1.onrender.com', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
